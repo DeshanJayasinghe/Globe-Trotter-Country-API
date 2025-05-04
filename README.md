@@ -1,52 +1,73 @@
-Globe-Trotter 🌍
-Vercel Deployment React TailwindCSS
+
+# Globe-Trotter 🌍
+
+[![Vercel Deployment](https://img.shields.io/badge/Deployed_on-Vercel-black?logo=vercel)](https://globe-trotter-country-2bdiwictf-deshan-jayasinghes-projects.vercel.app/)
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4-purple?logo=tailwind-css)
 
 An interactive platform to explore detailed country information, manage user authentication, and save favorite countries for quick access.
 
-Features ✨
-🔍 Search and explore country data
-⭐ Save favorite countries
-🔒 User authentication
-📱 Fully responsive design
-Tech Stack 🛠️
-Frontend: React 19, Vite
+## Features ✨
 
-Backend: REST Countries API (used for fetching country data)
+- 🔍 Search and explore country data
+- ⭐ Save favorite countries
+- 🔒 User authentication
+- 📱 Fully responsive design
 
-Styling: Tailwind CSS
+## Tech Stack 🛠️
 
-State Management: React Query
+- **Frontend**: React 19, Vite  
+- **Backend**: REST Countries API (used for fetching country data)  
+- **Styling**: Tailwind CSS  
+- **State Management**: React Query  
+- **Routing**: React Router  
+- **Deployment**: Vercel  
 
-Routing: React Router
+   ## Getting Started 🚀
 
-Deployment: Vercel
+### Prerequisites
 
-Getting Started 🚀
-Prerequisites
-Node.js (v18 or higher)
-npm (v9 or higher)
-Installation
-Clone the repository:
+- Node.js (v18 or higher)
+- npm (v9 or higher)
 
-git clone https://github.com/DeshanJayasinghe/Globe-Trotter-Country-API.git
-cd Globe-Trotter-Country-API
-Install dependencies:
+### Installation
 
-npm install --legacy-peer-deps
-Create an environment file:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/DeshanJayasinghe/Globe-Trotter-Country-API.git
+   cd Globe-Trotter-Country-API
+   ```
 
-cp .env.example .env
-Running the App
-Start the development server:
+2. Install dependencies:
+   ```bash
+   npm install --legacy-peer-deps
+   ```
 
-npm run dev
-Build for production:
+3. Create an environment file:
+   ```bash
+   cp .env.example .env
+   ```
 
-npm run build
-Preview the production build:
+### Running the App
 
-npm run preview
-Project Structure 📂
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+2. Build for production:
+   ```bash
+   npm run build
+   ```
+
+3. Preview the production build:
+   ```bash
+   npm run preview
+   ```
+
+## Project Structure 📂
+
+```
 
 Globe-Totter/
 ├── src/
@@ -57,7 +78,11 @@ Globe-Totter/
 │   └── App.jsx           # Main application
 ├── public/               # Static assets
 └── tailwind.config.js    # Tailwind configuration
+```
+
+## Hosted App 🌐
+
 Hosted App 🌐
-Hosted App 🌐 Check out the live app here: Globe-Trotter-Country-API on Vercel
+Check out the live app here: Globe-Trotter-Country-API on Vercel
 
 Made with ❤️ by DeshanJayasinghe
